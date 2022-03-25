@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace RPSLS_C
 {
-    class Player
+    public class Player
     {
         //member variables
+        int wins = 0;
+        string name = "";
+        string chosenGesture = "";
+        int rounds = 0;
+        List<string> gestureList = new List<string> { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
 
         //constructor
 
