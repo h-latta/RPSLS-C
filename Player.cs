@@ -9,14 +9,23 @@ namespace RPSLS_C
     public class Player
     {
         //member variables
-        int wins = 0;
-        string name = "";
-        string chosenGesture = "";
-        int rounds = 0;
-        List<string> gestureList = new List<string> { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
+        int wins;
+        string name;
+        string chosenGesture;
+        int rounds;
+        List<string> gestureList;
 
         //constructor
+        public Player()
+        {
 
+        wins = 0;
+        name = "";
+        chosenGesture = "";
+        rounds = 0;
+        gestureList = new List<string> { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
+
+        }
         //member methods
     }
 }
